@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="ma1p-1-w-2xl mx-auto p-8">
+    <h2 class="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-fuchsia-600 mb-3">introducing...</h2>
+    <p class="mb-8 tracking-tight text-gray-900 font-extrabold text-5xl lg:text-6xl leading-none">Instagram stories using Tailwind CSS</p>
+    <ul class="flex space-x-6">
+      <li class="items-center flex flex-col space-y-1">
+        <div class="relative p-1 rounded-full bg-gradient-to-tr from-yellow-400 to-fuchsia-800">
+        <a class='bg-white block p-1 rounded-full transform transition hover:-rotate-6' href="#">
+          <img class="h-24 w-24 rounded-full" src="https://placekitten.com/200/200" alt="cute kitty">
+        </a>
+        <button class="font-bold flex border-white right-1 h-8 w-8 justify-center items-center font-mono border-4 bottom-0 absolute bg-blue-500 text-2xl hover:bg-blue-800 text-white rounded-full">+</button>
+        </div>
+        <a  href="#">You</a>
+      </li>
+      <li class="items-center flex flex-col space-y-1">
+        <div class="p-1 rounded-full bg-gradient-to-tr from-yellow-400 to-fuchsia-800">
+        <a class='bg-white block p-1 rounded-full transform transition hover:-rotate-6' href="#">
+          <img class="h-24 w-24 rounded-full" src="https://placekitten.com/200/201" alt="cute kitty">
+        </a></div>
+        <a  href="#">KittyTwo</a>
+      </li>
+      <li class="items-center flex flex-col space-y-1">
+        <div class="p-1 rounded-full bg-gradient-to-tr from-yellow-400 to-fuchsia-800">
+        <a class='bg-white block p-1 rounded-full transform transition hover:-rotate-6' href="#">
+          <img class="h-24 w-24 rounded-full" src="https://placekitten.com/200/202" alt="cute kitty">
+        </a></div>
+        <a  href="#">KittyCuty</a>
+      </li>
+      <li class="items-center flex flex-col space-y-1">
+        <div class="p-1 rounded-full bg-gradient-to-tr from-yellow-400 to-fuchsia-800">
+        <a class='bg-white block p-1 rounded-full transform transition hover:-rotate-6' href="#">
+          <img class="h-24 w-24 rounded-full" src="https://placekitten.com/200/203" alt="cute kitty">
+        </a></div>
+        <a  href="#">KittyMeao</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
